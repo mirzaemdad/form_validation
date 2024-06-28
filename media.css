@@ -1,0 +1,44 @@
+/* extra small devices (portrait phone, less then 576px) */
+@media(max-width:  575.98px){
+    .text-primary{
+        background-color: rgb(128, 97, 97) !important;
+        color: rgb(197, 240, 240) !important;
+        margin: 0 auto !important;
+    }
+    .pclass{
+        color: rgb(214, 214, 236) !important;
+        background-color: blueviolet !important;
+    }
+}
+/*  medium devices (tablets, 768px and up) */
+@media(min-width:  576px) and (max-width: 991.98px){
+    .text-primary{
+        background-color: rgb(117, 122, 45) !important;
+        color: rgb(197, 240, 240) !important;
+    }
+    .pclass{
+        color: rgb(43, 43, 245) !important;
+        background-color: rgb(216, 193, 238) !important;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .text-primary{
+        background-color: rgb(95, 89, 89) !important;
+        color: rgb(112, 255, 255) !important;
+    }
+    .pclass{
+        color: rgb(237, 245, 193) !important;
+        background-color: rgb(91, 57, 122) !important;
+    }
+}
+/* Extra large devices (desktops, 1200px and up) */
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    .pclass{
+        margin: 0 auto;
+    }
+}
+/* Extra extra large devices (desktops, 1400px and up) */
+@media(max-width: 1400px){
+
+}
